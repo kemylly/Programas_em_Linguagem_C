@@ -1,0 +1,59 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main()
+{
+    setlocale(LC_ALL, "Portuguese");
+
+    float D, TS, ND, TD, RESULTADO;
+    
+    D = 95;
+
+    //printf("Bem vindo! \n");
+     
+    printf("\nQuantas diarias foram?\n");
+    scanf ("%f", &ND);
+    
+    TD = D*ND;
+    
+    if (ND < 10)
+    {
+        //printf ("Lua"); 
+        
+        TS = (TD / 100)*15;
+        RESULTADO = TS + TD;
+        //printf("%s suas depesas são:", nome);
+        printf("\nCada diaria custa 95,00 e voce consumiu %0.0f diarias\nEntao o valor total das diarias é: %0.2f", ND, TD);
+        printf("\nO valor da taxa de servico pela sua hospedagem resultou em: %0.2f", TS);
+        printf("\nPortanto o valor total a ser pago é de: %0.2f", RESULTADO);
+    }
+    else if (ND == 10)
+    {
+        //printf ("Sol");
+        
+        TS = (TD / 100)*10;
+        RESULTADO = TS + TD;
+        //printf("O resultado e: %0.2f", RESULTADO);
+        printf("Cada diria custa 95,00 e voce teve %0.0f diarias\nEntao o valor total das diarias é: %0.2f", ND, TD);
+        printf("\nO valor da taxa de servico pela sua hospedagem resultou em: %0.2f", TS);
+        printf("\nPortanto o valor total a ser pago é de: %0.2f", RESULTADO);
+    }   
+        else if (ND > 10)
+        {       
+            //printf("Mar");
+            
+            TS = (TD / 100)*5;
+            RESULTADO = TS + TD;
+            //printf("O resultado e: %0.2f", RESULTADO);
+            printf("Cada diria custa 95,00 e voce teve %0.0f diarias\nEntao o valor total das diarias é: %0.2f", ND, TD);
+            printf("\nO valor da taxa de servico pela sua hospedagem resultou em: %0.2f", TS);
+            printf("\nEntao o valor total a ser pago é de: %0.2f", RESULTADO);
+        }
+    else 
+    {
+        printf("Ops, aconteceu algo de errado");
+    } 
+    return 0;
+    
+}
