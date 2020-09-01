@@ -19,8 +19,8 @@ int main()
         TS = (salario / 100)*20;
         total = TS + salario;
         printf("\nO valor do seu salario era de %0.2f .\n Seu aumento foi de 20%%", salario);
-        printf("\nEntao o valor de aumento é %0.2f", TS);
-        printf("\nO valor agora do seu salario é: %0.2f", total);
+        printf("\nEntao o valor de aumento Ã© %0.2f", TS);
+        printf("\nO valor agora do seu salario Ã©: %0.2f", total);
     }
     else if (salario <= 700)
     {
@@ -29,8 +29,8 @@ int main()
         TS = (salario / 100)*15;
         total = TS + salario;
         printf("\nO valor do seu salario era de %0.2f .\n Seu aumento foi de 15%%", salario);
-        printf("\nEntao o valor de aumento é %0.2f", TS);
-        printf("\nO valor agora do seu salario é: %0.2f", total);
+        printf("\nEntao o valor de aumento Ã© %0.2f", TS);
+        printf("\nO valor agora do seu salario Ã©: %0.2f", total);
     }   
         else if (salario <= 1500)
         {       
@@ -39,16 +39,16 @@ int main()
             TS = (salario / 100)*10;
             total = TS + salario;
             printf("\nO valor do seu salario era de %0.2f .\n Seu aumento foi de 10%%", salario);
-        	printf("\nEntao o valor de aumento é %0.2f", TS);
-        	printf("\nO valor agora do seu salario é: %0.2f", total);
+        	printf("\nEntao o valor de aumento Ã© %0.2f", TS);
+        	printf("\nO valor agora do seu salario Ã©: %0.2f", total);
         }
         else if (salario > 1500)
         {
         	TS = (salario / 100)*5;
             total = TS + salario;
             printf("\nO valor do seu salario era de %0.2f .\n Seu aumento foi de 5%%", salario);
-        	printf("\nEntao o valor de aumento é %0.2f", TS);
-        	printf("\nO valor agora do seu salario é: %0.2f", total);
+        	printf("\nEntao o valor de aumento Ã© %0.2f", TS);
+        	printf("\nO valor agora do seu salario Ã©: %0.2f", total);
 		}
     else 
     {
