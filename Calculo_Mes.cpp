@@ -30,7 +30,7 @@ int main()
 		else if (mes == 2)
 		{
 			//printf("Mar");
-			//printf("O mes escolhido é fevereiro");
+			//printf("O mes escolhido Ã© fevereiro");
 			printf ("Digite o ano:");
 			scanf("%d", &divisao);
 			
