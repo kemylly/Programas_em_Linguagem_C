@@ -21,7 +21,7 @@ int main()
     {
         //printf ("Lua"); 
         
-        printf("\nO resultado da soma é: %0.2f ", soma); 
+        printf("\nO resultado da soma Ã©: %0.2f ", soma); 
     }
     else 
     {
