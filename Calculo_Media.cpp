@@ -25,14 +25,14 @@ int main()
     {
         //printf ("Lua"); 
         
-        printf("\nParabens, voce foi aprovado. Sua media é de: %0.2f pontos!", media); 
+        printf("\nParabens, voce foi aprovado. Sua media Ã© de: %0.2f pontos!", media); 
     }
     else if (media < 7)
     {
         //printf ("Sol");
         
         printf("\nOps, parece que voce foi Reprovado!");
-        printf("\nTente estudar mais da proxima vez. Sua media é de: %0.2f pontos.", media); 
+        printf("\nTente estudar mais da proxima vez. Sua media Ã© de: %0.2f pontos.", media); 
     }   
     else 
     {
