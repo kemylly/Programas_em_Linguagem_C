@@ -8,7 +8,7 @@ int main()
 
     int par, laco;
     
-    printf("Bem vindo, os numeros pares entre 0 e 20 s„o:\n"); 
+    printf("Bem vindo, os numeros pares entre 0 e 20 s√£o:\n"); 
     
     laco = 0;
     par = 0;
