@@ -1,1 +1,46 @@
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main()
+{
+    setlocale(LC_ALL, "Portuguese");
+
+    float total, horas;
+    
+    printf("Contagem de horas de um estacionamento?\n");
+    printf("Quantas horas foram?\n");
+    scanf ("%f", &horas);
+    
+    if (horas == 1)
+    {
+        //printf ("Lua"); 
+        
+        total = 8;
+        printf("\nPortanto o valor total a ser pago é de: %0.2f", total); 
+    }
+    else if (horas == 2)
+    {
+        //printf ("Sol");
+        
+        total = 15;
+        printf("\nOba voce ganhou desconto!");
+        printf("\nPortanto o valor total a ser pago é de: %0.2f", total); 
+    }   
+        else if (horas > 2)
+        {       
+            //printf("Mar");
+            
+            horas = horas-2;
+    		total = (horas*5)+15;
+    		printf("\nOba voce ganhou desconto!");
+        	printf("\nPortanto o valor total a ser pago é de: %0.2f", total); 
+        }
+    else 
+    {
+        printf("Ops, aconteceu algo de errado");
+    } 
+    return 0;
+    
+}
