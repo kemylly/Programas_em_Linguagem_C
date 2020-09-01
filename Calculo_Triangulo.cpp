@@ -8,7 +8,7 @@ int main()
 
     float ladoa, ladob, ladoc, somaa, somab, somac;
      
-    printf("Bem vindo. Digite os valores e descubra que tipo de triangulo é!");
+    printf("Bem vindo. Digite os valores e descubra que tipo de triangulo Ã©!");
 	printf("Digite o valor do lado A:\n");
     scanf ("%f", &ladoa);
     
@@ -25,7 +25,7 @@ int main()
     
     if ((ladoa < somaa) || (ladob < somab) || (ladoc < somac))
     {
-    	printf("Hmm, isso não parece um triangulo!");
+    	printf("Hmm, isso nÃ£o parece um triangulo!");
 	}
 	
 	else if (ladoa == ladob)
