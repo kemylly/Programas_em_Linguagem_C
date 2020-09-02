@@ -8,7 +8,7 @@ int main()
 
     int fatorial, reserva;
     
-    printf("Bem vindo, o numero fatorial de 5 é:\n"); 
+    printf("Bem vindo, o numero fatorial de 5 Ã©:\n"); 
     
     fatorial = 5*4*3*2*1;
     
