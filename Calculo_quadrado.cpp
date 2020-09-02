@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 	float resultado[10];
 	int i;
 	
-	printf ("Digite 10 números:\n ", i, numeros [i]);
+	printf ("Digite 10 nÃºmeros:\n ", i, numeros [i]);
 	
 	for (i = 0; i < 10; i++)
 	{
@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	
 	for (i = 0; i < 10; i++)
 	{
-		printf ("\nO quadrado do numero %.1f é igual a: %.1f \n", numeros [i], resultado [i]);
+		printf ("\nO quadrado do numero %.1f Ã© igual a: %.1f \n", numeros [i], resultado [i]);
 	} 
 	
 	return 0;
