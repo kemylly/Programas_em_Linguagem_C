@@ -17,7 +17,7 @@ int main()
     printf("Digite o valor do salario:\n"); 
     scanf("%f", &salario);
     
-    printf("Digite o tempo de serviço:\n");
+    printf("Digite o tempo de serviÃ§o:\n");
     printf("(Digite apenas numeros!)\n");
     scanf("%d", &tempo);
     
@@ -28,7 +28,7 @@ int main()
         salario = salario + aumento;
 		
 		printf("\n%s teve um aumento de 20%% \n", nome);
-		printf("O valor do seu salario atual é: %0.2f \n", salario); 
+		printf("O valor do seu salario atual Ã©: %0.2f \n", salario); 
     	
 	}
 	if(tempo <= 4)
@@ -38,7 +38,7 @@ int main()
         salario = salario + aumento;
 		
 		printf("\n%s voce teve um aumento de 10%% \n", nome);
-		printf("O valor do seu salario atual é: %0.2f \n", salario); 
+		printf("O valor do seu salario atual Ã©: %0.2f \n", salario); 
 	}
 	else 
 	{
