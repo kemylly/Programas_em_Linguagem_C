@@ -8,7 +8,7 @@ int main()
 
     int tres, laco;
     
-    printf("Bem vindo, os numeros divisiveis por 3 entre 0 e 20 s„o:\n"); 
+    printf("Bem vindo, os numeros divisiveis por 3 entre 0 e 20 s√£o:\n"); 
     
     laco = 0;
     tres = 0;
