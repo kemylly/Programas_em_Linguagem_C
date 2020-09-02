@@ -24,24 +24,24 @@ int main()
         	//printf ("Lua"); 
         	//printf("\nSua velocidade era de %d", velocidade);	
         	printf("Voce estava %d km/h acima da velocidade.\n", calculo);
-        	printf ("Sua multa È de 50 reais.");
+        	printf ("Sua multa √© de 50 reais.");
 		}
 		else if (calculo <= 30)
 		{
 			//printf ("Sol");
 			printf("Voce estava %d km/h acima da velocidade.\n", calculo);
-			printf("Sua multa È de 100 reais.");
+			printf("Sua multa √© de 100 reais.");
 		}
 		else if ( calculo > 31)
 		{
 			//printf("Mar");
 			printf("Voce estava %d km/h acima da velocidade.\n", calculo);
-			printf("Sua multa È de 300 reais");
+			printf("Sua multa √© de 300 reais");
 		}
     }
     else 
     {
-        printf("Que bom voce n„o estava acima da velocidae permtida.");
+        printf("Que bom voce n√£o estava acima da velocidae permtida.");
     } 
     return 0;
     
