@@ -13,15 +13,15 @@ int main(int argc, char *argv[])
 	// i = numeros impares e contagem
 	// k = numeros impares e for
 
-	// N„o consegui com que o sistema gerasse numeros aleatorios sozinhos
+	// N√£o consegui com que o sistema gerasse numeros aleatorios sozinhos
 
-	printf ("Digite 10 n˙meros entre 0 e 50:\n");
+	printf ("Digite 10 n√∫meros entre 0 e 50:\n");
 	for (n = 0; n < 10; n++)
 	{
 		scanf ("%d", &numeros[n]);
 		if((numeros[n])<0 || (numeros[n]>50))
 		{
-			printf ("Digite 10 n˙meros entre 0 e 50:\n");
+			printf ("Digite 10 n√∫meros entre 0 e 50:\n");
 			scanf ("%d", &numeros[n]);	
 		}
 	}
@@ -41,17 +41,17 @@ int main(int argc, char *argv[])
 	}
 	
     {
-    printf ("\ndigitados / Õmpares:\n\n");
+    printf ("\ndigitados / √çmpares:\n\n");
 	k=0;
     for (n = 0; n < 10; n++) 
 	{
             if (impares[n] == 0) 
 			{
-            	printf("Os n˙meros s„o: %d / vazio\n", numeros[n]);
+            	printf("Os n√∫meros s√£o: %d / vazio\n", numeros[n]);
             }
             else
             {
-            	printf("Os n˙meros s„o: %d / %d\n", numeros[n], impares[n]);
+            	printf("Os n√∫meros s√£o: %d / %d\n", numeros[n], impares[n]);
 			}
             	
 	}
