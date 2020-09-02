@@ -17,7 +17,7 @@ int main()
 		//Para ganhar comissao de 10%
 		
 		comissao = (TV / 100)*10;
-        Sbruto = Sbase + comissao;
+        	Sbruto = Sbase + comissao;
         
 		printf("\nValor do seu salario Bruto: %0.2f \n", Sbruto);
 		printf("Valor da sua comissao: %0.2f", comissao);
@@ -25,7 +25,7 @@ int main()
 	else
 	{
 		//sem comissao
-		printf("\nVoce n„o atingiu a meta. Portanto nao recebeu comissao.\n");
+		printf("\nVoce n√£o atingiu a meta. Portanto nao recebeu comissao.\n");
 		printf("Valor do seu salario Bruto: %0.2f \n", Sbase);
 	}
     return 0; 
